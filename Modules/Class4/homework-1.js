@@ -37,16 +37,16 @@ console.log(`\n${fTemp2}°F is equals to ${kTemp1}°K`);
 
 let cTemp2 = 102;
 let fTemp3 = (cTemp2 + 32) / 9.5;
-console.log(`\n${cTemp2}°F is equals to ${fTemp3}°F`);
+console.log(`\n${cTemp2}°C is equals to ${fTemp3}°F`);
 
 let cTemp3 = 55;
 let kTemp3 = (cTemp3 + 273.15);
-console.log(`\n${cTemp3}°F is equals to ${kTemp3}°K`);
+console.log(`\n${cTemp3}°C is equals to ${kTemp3}°K`);
 
 let kTemp4 = 55;
 let fTemp4 = (kTemp4 -273) + 32;
-console.log(`\n${kTemp4}°F is equals to ${kTemp4}°F`);
+console.log(`\n${kTemp4}°K is equals to ${kTemp4}°F`);
 
 let kTemp5 = 65;
 let cTemp5 = (kTemp5 - 273);
-console.log(`\n${kTemp5}°F is equals to ${cTemp5}°C`);
+console.log(`\n${kTemp5}°K is equals to ${cTemp5}°C`);

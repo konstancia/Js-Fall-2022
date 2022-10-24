@@ -1,0 +1,23 @@
+let weatherByDay = ['sunny', 'rainy', 'cloudy', 'rainy', 'cloudy'];
+console.log(`Daily weather -> ${weatherByDay}`);
+let condition = '';
+let dayNum = 0;
+for (let i = 0; i < weatherByDay.length; i++){
+    dayNum = i + 1;
+    switch(weatherByDay[i]){
+        case 'sunny':
+            console.log(`Day ${dayNum} -> Show sun icon`);
+            break;
+        case 'rainy':
+            console.log(`Day ${dayNum} -> Show rain icon`);
+            break;
+        case 'cloudy':
+            console.log(`Day ${dayNum} -> Show cloud icon`);
+            break;
+        case 'windy':
+            console.log(`Day ${dayNum} -> Show wind icon`);
+            break;
+        default: 
+            console.log('Not a valid weather event');              
+    }
+}

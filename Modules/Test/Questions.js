@@ -264,7 +264,16 @@ let allStudentRecords_3 = [
  *      print message -> Invalid student id provided.
  */
 function updateFirstName(sId, newFirstName, studentRecords) {
-    // code
+    const studentFile = studentRecords.filter(s => s.id === sId)[0];
+  if (sId && studentFile) {
+    if (newFirstName && newFirstName.length > 0 && newFirstName !== studentFile.name) { // pass fn
+      console.log(`Your name is updated successfully, new full name in the records: `);
+    } else {
+      console.log(`Provided New firstName is same as of in the records, full name in the records:`);
+    }
+  } else {
+    console.log('Invalid student id provided');
+  }
 }
 
 

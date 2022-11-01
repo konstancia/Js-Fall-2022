@@ -23,4 +23,17 @@ if (countryName_U1.localeCompare(countryFor_U1) ===0 ){
     console.log ('You are a USA Citizen');
 }
 
+let student = {
+    first: `Kon`,
+    last: `Kmf`,
+    age: 30,
+    height: 57,
+    studentInfo: function () {
+        return this.first + '' + ''  + this.last;
+
+    }
+
+
+};
+console.log(student.studentInfo());
 

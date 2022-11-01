@@ -14,3 +14,21 @@ entence4_Titlecase  = sentence4_Titlecase + sentenceArray[3].charAt(0).toUpperCa
 
 
 console.log(`sentence4_Titlecase -> ${sentence4_Titlecase}`); // sentence_Titlecase 
+
+
+let emptyArray = new Array();
+for (num=0; num <10; num++)
+ {
+    emptyArray.push(num);
+}   
+
+    console.log(`${emptyArray}`);
+
+
+    function removeNumFromArray(num, numArray) {
+        // code
+    }
+    
+    const arr1_1 = [1, 2, 3, 4, 5];
+    const numArrayAfterRemoval1_1 = removeNumFromArray(2, arr1_1);
+    console.log(numArrayAfterRemoval1_1);

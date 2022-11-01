@@ -9,6 +9,16 @@
  * 
  */
 let numbers = [23, 12, 43, 10, 5, -10];
+let total = null;
+
+console.log(`Using for - loop`);
+for (let i=0; i <= numbers.lengh-1; i++) {
+    total = total + numbers[i];
+
+}
+let avg = total / numbers.length;
+console.log(`avg --> ${avg}`);
+
 
 
 /**
@@ -23,7 +33,12 @@ let numbers = [23, 12, 43, 10, 5, -10];
 let str2 = 'have a great day'   // day great a have
 let reverseStr2 = '';
 // code
-console.log(`reverseStr2 -> ${reverseStr2}`);   // day great a have
+
+const arr2 = str2.split('');
+for (let i=arr2.length-1; i >= 0; i--);
+reverseStr2 = reverseStr2 + arr2[i] + '';
+
+console.log(`reverseStr2 -> ${reverseStr2.trim()}`);   // day great a have
 
 
 /**

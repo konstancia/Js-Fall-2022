@@ -41,6 +41,11 @@ console.log (`sentence3_startsWith_Body -> ${sentence3_startsWith_Body}`);
 
  let sentence3_lastCharacter = sentence3.endsWith('');
  console.log (`sentence3_lastCharacter -> ${sentence3_lastCharacter}`);
- 
- let indexOf_Body = sentence3.indexOf('Body');
-console.log(`Index of 'Body' is -> ${indexOf_Body}`);
+
+  let sentence3_L = sentence3.toLowerCase();
+  let BoDy_l ='BoDy'.toLowerCase();
+  let indexOf_Body = sentence3.indexOf(BoDy_l);
+  let lastIndexOf = sentence3.lastIndexOf(BoDy_l);
+   let result = indexOf_Body === lastIndexOf ;
+   console.log (`${result}`);
+
